@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADITTHYA S.S. | CSE Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#0b0b0b;color:#f5f5f5;line-height:1.6}
+a{color:#fff;text-decoration:none}
+.container{width:min(1080px,92%);margin:auto}
+nav{position:sticky;top:0;background:rgba(11,11,11,.95);border-bottom:1px solid #333;z-index:10}
+nav .container{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font-weight:700;letter-spacing:1px}
+nav ul{display:flex;gap:24px;list-style:none;font-size:.95rem}
+nav a:hover{text-decoration:underline}
+.hero{min-height:82vh;display:flex;align-items:center;border-bottom:1px solid #333}
+.hero h1{font-size:clamp(3rem,9vw,7rem);line-height:.95;letter-spacing:-4px}
+.hero p{margin-top:24px;max-width:700px;color:#cfcfcf;font-size:1.1rem}
+.tag{display:inline-block;border:1px solid #666;border-radius:999px;padding:7px 14px;margin-bottom:24px;font-size:.85rem}
+section{padding:80px 0;border-bottom:1px solid #333}
+h2{font-size:2rem;margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{border:1px solid #444;border-radius:16px;padding:26px;background:#111}
+.card h3{margin-bottom:10px;font-size:1.25rem}
+.card p{color:#c9c9c9}
+.card a{display:inline-block;margin-top:16px;border-bottom:1px solid #fff;padding-bottom:2px}
+.skills{display:flex;flex-wrap:wrap;gap:10px}
+.skill{border:1px solid #555;border-radius:999px;padding:9px 14px;color:#ddd}
+.contact-box{border:1px solid #444;border-radius:18px;padding:30px;display:flex;justify-content:space-between;gap:30px;align-items:center}
+footer{padding:30px 0;color:#999;text-align:center;font-size:.9rem}
+@media(max-width:700px){nav ul{gap:10px;font-size:.8rem}.grid{grid-template-columns:1fr}.hero h1{letter-spacing:-2px}.contact-box{display:block}}
+</style>
+</head>
+<body>
+<nav>
+<div class="container">
+<div class="logo">ADITTHYA S.S.</div>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<header class="hero">
+<div class="container">
+<span class="tag">B.Tech CSE · 3rd Semester · REVA University</span>
+<h1>Learning.<br>Building.<br>Improving.</h1>
+<p>I am a Computer Science Engineering student interested in programming, problem solving, and software development. I am building my foundation through C programming, Git and GitHub, collaborative development, and LeetCode practice.</p>
+</div>
+</header>
+
+<section id="about">
+<div class="container">
+<h2>About</h2>
+<p>I am ADITTHYA S.S., a 3rd-semester B.Tech CSE student at REVA University. My current focus is strengthening programming and problem-solving skills through practical learning and documented projects. My goal is to build stronger DSA skills, create more practical software projects, and develop toward a career in software development.</p>
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+<h2>Projects & Activities</h2>
+<div class="grid">
+<article class="card">
+<h3>Activity 1 · Hello World</h3>
+<p>Set up Visual Studio Code and created a C Hello World program. The public hello-world-c repository contains hello.c and a README.</p>
+<a href="https://github.com/aditthyass1805/hello-world-c" target="_blank" rel="noopener">View repository →</a>
+</article>
+<article class="card">
+<h3>Activity 2 · Git & GitHub</h3>
+<p>Practiced the Git and GitHub workflow by working with repositories, creating meaningful commits, and pushing changes to the main branch.</p>
+<a href="https://github.com/aditthyass1805/hello-world-c" target="_blank" rel="noopener">View repository →</a>
+</article>
+<article class="card">
+<h3>Activity 3 · GitLens & Live Share</h3>
+<p>Used GitLens and VS Code Live Share for collaborative coding, completed a greet() program with a friend, and maintained a collaboration log.</p>
+<a href="https://github.com/aditthyass1805/hello-world-c" target="_blank" rel="noopener">View repository →</a>
+</article>
+<article class="card">
+<h3>Activity 4 · LeetCode Practice</h3>
+<p>Created a structured LeetCode practice repository with a progress tracker and organized folders. Eight problems are documented across arrays, strings, algorithms, and stacks.</p>
+<a href="https://github.com/aditthyass1805/leetcode-solutions" target="_blank" rel="noopener">View repository →</a>
+</article>
+</div>
+</div>
+</section>
+
+<section id="skills">
+<div class="container">
+<h2>Skills</h2>
+<div class="skills">
+<span class="skill">C Programming</span>
+<span class="skill">Basic Python</span>
+<span class="skill">Basic C++</span>
+<span class="skill">Git</span>
+<span class="skill">GitHub</span>
+<span class="skill">VS Code</span>
+<span class="skill">GitLens</span>
+<span class="skill">Live Share</span>
+<span class="skill">Problem Solving</span>
+<span class="skill">DSA Practice</span>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<h2>Contact</h2>
+<div class="contact-box">
+<div>
+<h3>Let's connect</h3>
+<p>My coding work and learning progress are available on GitHub.</p>
+</div>
+<a href="https://github.com/aditthyass1805" target="_blank" rel="noopener">github.com/aditthyass1805 →</a>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">© 2026 ADITTHYA S.S. · B.Tech CSE, REVA University</div>
+</footer>
+</body>
+</html>
